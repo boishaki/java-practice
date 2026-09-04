@@ -1,0 +1,15 @@
+// Implicit typecasting
+
+
+class type{
+  public static void main(String []args){
+    //int a = 20;
+    //double b = a;
+
+// Explicit typecasting
+    double q = 100.0;
+    int x = (int) q;
+    System.out.print(x);
+    
+  }
+}

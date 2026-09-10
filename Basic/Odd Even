@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Odd {
+    public static void main(String[]args){
+        Scanner obj = new Scanner (System.in);
+        int n = obj.nextInt();
+
+        if(n%2 == 0){ // use 1 that is even number print
+            System.out.println("odd number ");
+            
+        }
+        else{
+            System.out.println("Even number ");
+        }
+    }
+}

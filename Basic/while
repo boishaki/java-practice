@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class While{
+    public static void main(String[]args){
+
+        Scanner obj = new Scanner (System.in);
+        int ch = obj.nextInt();
+
+        while(ch<=10) {
+            System.out.println("learn coding ");
+            ++ch;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Tax{
+    public static void main(String[]args){
+        Scanner obj = new Scanner(System.in);
+        int sal = obj.nextInt();
+        double tax;
+        if (sal<=1000){
+            System.out.println("no tax");
+        }
+        else if(sal>2000 && sal<=3000){
+            tax = sal * 0.10;
+            System.out.println("bonus: " + tax);
+        }
+        else{
+            tax = sal*0.20;
+            System.out.println(" sal: " + tax);
+        }
+        
+    }
+}
